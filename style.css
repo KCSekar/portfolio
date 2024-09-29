@@ -1,0 +1,477 @@
+body {
+  margin: 0;
+}
+
+/* Section 1 */
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+}
+h1.hi-there-name {
+  margin-bottom: -5px;
+}
+.color-of-hi-there {
+  color: #002b66;
+}
+.color-of-myname {
+  color: #e6384e;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #3e3e3e;
+}
+h3.short-about-me {
+  padding-bottom: 40px;
+  width: 60%;
+}
+.big-section {
+  height: 600px;
+  padding: 80px 100px;
+}
+.big-section-2 {
+  height: 600px;
+  padding: 80px 100px 120px 100px;
+}
+.small-section {
+  height: 240px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+.myphoto-s {
+  width: 75%;
+}
+.link-button {
+  padding: 20px 60px;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, #ff8063, #f46060);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+/* Section 2 */
+
+h2.about-text-color {
+  font-family: "Bebas Neue", cursive;
+  font-size: 48px;
+  color: #002b66;
+}
+h3.long-about-me {
+  padding-bottom: 40px;
+}
+.about-s2 {
+  margin-left: 12%;
+}
+
+/* Section 3*/
+
+.banner-s3 {
+  background-color: #e5e5e5;
+}
+h2.latest-project {
+  font-family: "Bebas Neue", cursive;
+  font-size: 48px;
+  text-align: center;
+  color: #002b66;
+}
+span.h2-text-color {
+  color: #e6384e;
+}
+.latest-project-div-style {
+  height: 80%;
+  width: 30%;
+  background-color: white;
+  float: left;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 8px 8px 40px gray;
+}
+.latest-project-div-style-margin {
+  margin-left: 35px;
+}
+.latest-project-photo {
+  width: 90%;
+  margin: 18px 18px 0px 18px;
+}
+.latest-project-text {
+  padding-left: 20px;
+}
+.latest-project-div-style p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  padding-left: 20px;
+  color: #6c6c6c;
+}
+
+/* Section 4*/
+
+.my-skills {
+  font-family: "Bebas Neue", cursive;
+  font-size: 48px;
+  text-align: center;
+  color: #002b66;
+}
+.skills-p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.container {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #ddd;
+}
+.skills {
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  color: white;
+}
+.html {
+  width: 80%;
+  background-color: #002b66;
+}
+.css {
+  width: 70%;
+  background-color: #e6384e;
+}
+.illustrator {
+  width: 80%;
+  background-color: #002b66;
+}
+.photoshop {
+  width: 60%;
+  background-color: #e6384e;
+}
+.team-management {
+  width: 70%;
+  background-color: #e6384e;
+}
+.critical-thinking {
+  width: 75%;
+  background-color: #002b66;
+}
+.problem-solving {
+  width: 65%;
+  background-color: #e6384e;
+}
+.communication {
+  width: 75%;
+  background-color: #002b66;
+}
+
+/* Section 5 */
+
+.div-size-s4 {
+  height: 236px;
+  width: 950px;
+  background-image: url("shapes/Group_33094_1.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.work-inquiry-s4 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 64px;
+  color: white;
+}
+.lets-chat-s4 {
+}
+
+/* Footer */
+
+p.stay-connected {
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  color: #696871;
+  text-align: center;
+}
+p.footer-mail {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #363958;
+  margin: -2px;
+}
+img.footer-image-size {
+  height: 38px;
+  width: 38px;
+  padding: 10px;
+}
+footer {
+  padding-bottom: 60px;
+}
+.footer-image-position {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Button Style for Projects */
+.project-button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s ease-in-out;
+  margin-top: 15px;
+  float: right; /* Align the button to the right */
+}
+
+.project-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.1); /* Slight enlarge on hover */
+}
+
+/* Ensure the link inside button takes full button area */
+.project-button a {
+  color: white;
+  text-decoration: none;
+  display: block; /* Ensures link takes full button space */
+}
+
+.project-button a:hover {
+  text-decoration: none;
+}
+/* Image styling with reduced size, border, and animation */
+.animated-photo {
+  width: 70%; /* Reduce the size of the image */
+  max-width: 500px; /* Ensure the image doesn't get too large */
+  border: 5px solid black; /* Green border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Animation properties */
+}
+
+.animated-photo:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.5); /* More intense shadow on hover */
+}
+
+/* Fade-in animation for the entire section */
+.half-width {
+  opacity: 0;
+  animation: fadeIn 1s forwards ease-in-out;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Styling for the reduced size image in the second section */
+.reduced-photo {
+  width: 70%; /* Reduce the size of the image */
+  max-width: 500px; /* Ensure the image doesn't get too large */
+  border: 5px solid black; /* Green border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Animation properties */
+}
+
+.reduced-photo:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.5); /* More intense shadow on hover */
+}
+
+/* Fade-in animation for the section */
+.half-width {
+  opacity: 0;
+  animation: fadeIn 1s forwards ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.big-section {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Container for the stars */
+.star-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* So the stars don't interfere with other elements */
+}
+
+/* Styling for individual stars */
+.star {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  /* background-color: white; */
+  border-radius: 50%;
+  animation: moveStar 10s linear infinite;
+  opacity: 0.8;
+}
+
+/* Randomize the position of stars */
+.star:nth-child(1) { top: 20%; left: 10%; animation-duration: 8s; }
+.star:nth-child(2) { top: 40%; left: 25%; animation-duration: 10s; }
+.star:nth-child(3) { top: 60%; left: 15%; animation-duration: 7s; }
+.star:nth-child(4) { top: 30%; left: 50%; animation-duration: 12s; }
+.star:nth-child(5) { top: 80%; left: 20%; animation-duration: 9s; }
+.star:nth-child(6) { top: 50%; left: 75%; animation-duration: 11s; }
+.star:nth-child(7) { top: 10%; left: 90%; animation-duration: 6s; }
+.star:nth-child(8) { top: 70%; left: 85%; animation-duration: 10s; }
+.star:nth-child(9) { top: 20%; left: 60%; animation-duration: 13s; }
+.star:nth-child(10) { top: 40%; left: 80%; animation-duration: 8s; }
+
+/* Animation for the stars to move in a circular path */
+@keyframes moveStar {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-50px) rotate(360deg);
+  }
+}/* General styling for the big section */
+.big-section {
+  position: relative;
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Line container to hold the animated line */
+.line-container {
+  position: absolute;
+  top: 0; /* Position the line at the top of the section */
+  left: 0;
+  width: 100%;
+  height: 4px; /* Adjust height of the line */
+  background-color: transparent; /* Background color */
+}
+
+/* Line styling */
+.line {
+  position: absolute;
+  height: 4px; /* Thickness of the line */
+  width: 100%; /* Full width to allow movement */
+  background-color: black; /* Color of the line */
+  animation: moveLine 2s linear infinite; /* Animation effect */
+}
+
+/* Animation keyframes for the line */
+@keyframes moveLine {
+  0% {
+    transform: translateX(-100%); /* Start from left */
+  }
+  50% {
+    transform: translateX(100%); /* Move to right */
+  }
+  100% {
+    transform: translateX(-100%); /* Move back to left */
+  }
+}
+
+.latest-project-div-style {
+  transform: scale(0.8); /* Slightly scale down */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Transition for fade and scale */
+}
+
+.latest-project-div-style.active {
+  transform: scale(1); /* Scale to original size */
+}
+
+/* Add a class for the ease-out animation */
+@keyframes easeOut {
+  0% {
+    opacity: 1;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1; /* Slightly transparent at the end */
+    transform: scale(0.9); /* Slightly smal ler */
+  }
+}
+
+.animate {
+  animation: easeOut 2.4s forwards; /* Animation for the container */
+}
+/* Container for the skill bar */
+.container {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden; /* Ensure that the inner div doesn't overflow */
+  margin: 10px 0; /* Space between skills */
+}
+
+/* Actual skill level div */
+.skills {
+  height: 25px; /* Height of the skill bar */
+  width: 0; /* Start with 0 width */
+  background-color: #4caf50; /* Green background for the skill bar */
+  text-align: center; /* Center the text inside */
+  line-height: 25px; /* Center text vertically */
+  color: white; /* Text color */
+  border-radius: 5px; /* Round corners */
+  transition: width 2s ease; /* Smooth transition for width */
+}
+
+/* Different colors for each skill (optional) */
+.html {
+  background-color: #2196F3; /* Blue */
+}
+
+.css {
+  background-color: #E91E63; /* Pink */
+}
+
+.illustrator {
+  background-color: #FF9800; /* Orange */
+}
+
+.photoshop {
+  background-color: #9C27B0; /* Purple */
+}
+
+.team-management {
+  background-color: #FF5722; /* Deep Orange */
+}
+
+.critical-thinking {
+  background-color: #3F51B5; /* Indigo */
+}
+
+.problem-solving {
+  background-color: #009688; /* Teal */
+}
+
+.communication {
+  background-color: #795548; /* Brown */
+}
